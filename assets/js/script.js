@@ -114,7 +114,7 @@ submitButton.addEventListener("click", function (e) {
     localStorage.setItem("user-score", JSON.stringify(stored));
     tryAgain.style.display = "block";
 })
-tryAgain.addEventListener("click", function() {
+tryAgain.addEventListener("click", function () {
     location.reload();
 })
 

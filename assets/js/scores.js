@@ -6,6 +6,6 @@ console.log(userScore);
 
 for (i = 0; i < userScore.length; i++){
     var getScore = document.createElement("li");
-    getScore.textContent = userScore[i].name + userScore[i].score;
+    getScore.textContent = userScore[i].name + ": " + userScore[i].score;
     ulEl.appendChild(getScore);
 }

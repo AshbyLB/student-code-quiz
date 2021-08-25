@@ -10,7 +10,12 @@ body {
 
 header {
     width: 100%;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(247, 255, 137);
+    padding-top: 30px;
+    padding-bottom: 30px;
     
 }
 
@@ -20,18 +25,18 @@ header div {
 }
 
 a {
-    color: white;
+    color: rgb(252, 14, 232);
     text-decoration: none;
     font-size: large;
 }
 
 a:hover {
-    color: red;
+    color: rgb(84, 216, 32);
     text-decoration: underline;
 }
 
 #timer {
-    color: white;
+    color: rgb(230, 40, 40);
     text-decoration: none;
     font-size: large;
 }
@@ -39,5 +44,19 @@ main {
     width: 100%;
     height: auto;
     display: block;
-    justify-content: center;
+    align-items: center;
+    border: snow;
+}
+
+main div {
+    display: block;
+    text-align: center;
+}
+
+ul li {
+    color: snow;
+    list-style: none;
+    background-color: tomato;
+    width: 25%;
+    margin
 }

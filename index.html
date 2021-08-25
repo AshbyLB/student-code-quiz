@@ -13,33 +13,37 @@
     <header>
         <div>
             <a href="./scores.html">High Scores</a>
-        </div>
-        <div>
+            </div>
+            <div>
+                <h1>Timed Coding Quiz!</h1>
+            </div>
+            <div>
             <p id="timer"></p>
-        </div> 
+            </div>
+        </div>
     </header>
     <main>
         <div id="titlePage">
-            <h1>Coding Quiz</h1>
-            <p>Welcome to the Coding quiz.</p>
+            <h2>Lets Begin!</h2>
+            <p>Welcome to the Coding quiz. Remember that you are being timed.  If you select an incorrect answer, ten seconds will be subtracted from your time!  Good luck and be sure to add your name to the High Scores page!</p>
             <button id="start">Start The Quiz</button>
-        
+
         </div>
         <div>
-            <h2 id= "title"></h2>
+            <h2 id="title"></h2>
             <ul></ul>
             <p id="result"></p>
         </div>
         <div id=finalScore>
         </div>
-            <hr>
-        
-            <form id="hsForm">   
-                <input id = "nameInput" type="text" placeholder="Your Name"/>
-                <button id="submit">Submit</button>
-              </form>
+        <hr>
+
+        <form id="hsForm">
+            <input id="nameInput" type="text" placeholder="Your Name" />
+            <button id="submit">Submit</button>
+        </form>
         <button id="tryAgain">Try Again</button>
-        
+
     </main>
     <script src="./assets/js/script.js"></script>
 
