@@ -1,11 +1,9 @@
-* {
-    box-sizing: border-box;
-}
+
 
 body {
     display: flex;
     flex-wrap: wrap;
-    background-color: darkslateblue;
+    background-color: rgb(187, 177, 253);
 }
 
 header {
@@ -45,7 +43,7 @@ main {
     height: auto;
     display: block;
     align-items: center;
-    border: snow;
+    text-align: center;
 }
 
 main div {
@@ -58,5 +56,50 @@ ul li {
     list-style: none;
     background-color: tomato;
     width: 25%;
-    margin
+    margin-right: auto;
+    margin-left: auto;
+    font-size: larger;
+    border: 5px solid rgb(12, 12, 44);
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 200px;
+    
+}
+
+ul {
+    display: block;
+}
+
+#title {
+    color: white;
+}
+
+li:hover {
+    border: 5px solid rgb(64, 250, 204);
+    text-decoration: underline;
+    background-color: white;
+    color: tomato;
+}
+#tryAgain {
+    text-align: center;
+    margin: auto;
+}
+footer {
+    margin: auto;
+    color: rgb(25, 148, 185);
+    padding: 30px;
+    font-size: 150%;
+}
+h1 {
+    margin: auto;
+}
+#return {
+    margin: auto;
+}
+footer a {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 150%;
+    text-decoration: underline;
 }

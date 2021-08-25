@@ -1,8 +1,8 @@
 
 let questions = [
     {
-        question: "question1",
-        answers: ["a1", "a2", "a3", "a4"],
+        question: "What does DOM stand for?",
+        answers: ["Writing some text here to see what happens.", "Writing some text here to see what happens.", "Writing some text here to see what happens.", "Writing some text here to see what happens."],
         correctAnswers: 0,
     },
     {
