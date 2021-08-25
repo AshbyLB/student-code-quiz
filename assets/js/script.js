@@ -2,27 +2,27 @@
 let questions = [
     {
         question: "What does DOM stand for?",
-        answers: ["Writing some text here to see what happens.", "Writing some text here to see what happens.", "Writing some text here to see what happens.", "Writing some text here to see what happens."],
+        answers: ["Document Object Model.", "Delete Object Mode.", "Director of Magic.", "Divide or multiply."],
         correctAnswers: 0,
     },
     {
-        question: "question",
-        answers: ["b1", "b2", "b3", "b4"],
+        question: "What kind of loop do you use to pull values and objects from an array?",
+        answers: ["Fruit", "For", "Data", "Code"],
         correctAnswers: 1,
     },
     {
-        question: "question",
-        answers: ["c1", "c2", "c3", "c4"],
+        question: "Choose the self closing tag?",
+        answers: ["<header>", "<main>", "<img>", "<footer>"],
         correctAnswers: 2,
     },
     {
-        question: "question",
-        answers: ["d1", "d2", "d3", "d4"],
+        question: "How does it look to run a function on a JavaScript page?",
+        answers: ["runFunctionPlease", "function.run", "there is no such thing as a function", "function();"],
         correctAnswers: 3,
     },
     {
-        question: "question",
-        answers: ["e1", "e2", "e3", "e4"],
+        question: "What do you do to send an object into local storage.",
+        answers: ["JSON.stringify", "Scream at it", "JSON.parse", "Jason.String"],
         correctAnswers: 0,
     }]
 
