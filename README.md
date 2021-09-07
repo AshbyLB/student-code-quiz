@@ -7,6 +7,8 @@
 - [Usage](#Usage)
 - [Screenshot](#Screenshot)
 - [Languages](#Languages)
+- [License](#License)
+- [Contact](#Contact)
 
 ## Discription
 Welcome to my Coding Quiz!  I  hope I have not made it too hard for you!  Feel free to click the "Start the Quiz" button to begin!
@@ -19,6 +21,13 @@ To begin, select the "Start the Quiz" button.  A series of questions and multipl
  
 
 ![Quiz Screenshot](./assets/images/quiz.png)
+![Quiz Screenshot](./assets/images/quiz2.png)
 
 ## Languages
 HTML, CSS, and JavaScript
+
+## License
+MIT
+
+## Contact
+You can contact me with any questions at ashbyleeblakely@gmail.com
