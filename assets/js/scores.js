@@ -1,6 +1,6 @@
 var userScore = JSON.parse(localStorage.getItem("user-score"));
 var ulEl = document.querySelector("ul");
-console.log(userScore);
+
 
 
 
